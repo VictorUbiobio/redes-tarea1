@@ -1,0 +1,9 @@
+1.
+g++ -o servidor servidor.cpp
+
+g++ -o cliente cliente.cpp
+
+2.
+./servidor 7777
+
+./cliente 127.0.0.1 7777
